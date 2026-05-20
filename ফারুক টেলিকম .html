@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ফারুক টেলিকম - প্রিমিয়াম মোবাইল সার্ভিসিং</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* প্রিমিয়াম সিএসএস */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Hind Siliguri', sans-serif; }
+        body { background-color: #f9f9f9; color: #333; line-height: 1.6; }
+
+        /* Header */
+        header { background: linear-gradient(135deg, #2c3e50, #000); color: #fff; padding: 40px 20px; text-align: center; }
+        header h1 { font-size: 3rem; margin-bottom: 10px; color: #f1c40f; }
+
+        /* Nav */
+        nav { background: #fff; padding: 15px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        nav a { margin: 0 20px; text-decoration: none; color: #333; font-weight: bold; transition: 0.3s; }
+        nav a:hover { color: #e74c3c; }
+
+        /* Hero Section */
+        .hero { padding: 80px 20px; text-align: center; background: #fff; }
+        .hero h2 { font-size: 2.5rem; margin-bottom: 20px; }
+        .btn { padding: 15px 35px; background: #e74c3c; color: white; border: none; border-radius: 50px; font-size: 1.2rem; cursor: pointer; transition: 0.4s; box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3); }
+        .btn:hover { background: #c0392b; transform: translateY(-5px); }
+
+        /* Services Grid */
+        .services { padding: 60px 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: auto; }
+        .card { background: #fff; padding: 40px; border-radius: 15px; text-align: center; transition: 0.4s; border: 1px solid #eee; }
+        .card:hover { transform: translateY(-15px); box-shadow: 0 20px 30px rgba(0,0,0,0.1); border-color: #e74c3c; }
+        .card h3 { color: #2c3e50; margin-bottom: 15px; }
+
+        /* Footer */
+        footer { background: #222; color: #fff; padding: 50px 20px; text-align: center; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ফারুক টেলিকম</h1>
+        <p>নির্ভরযোগ্য মোবাইল সার্ভিসিংয়ের আধুনিক গন্তব্য</p>
+    </header>
+
+    <nav>
+        <a href="#">হোম</a>
+        <a href="#services">সেবা সমূহ</a>
+        <a href="#contact">যোগাযোগ</a>
+    </nav>
+
+    <section class="hero">
+        <h2>আপনার স্মার্টফোনের সেরা যত্ন</h2>
+        <p>আধুনিক প্রযুক্তি ও দক্ষ টেকনিশিয়ান দ্বারা দ্রুত সার্ভিসিং নিশ্চিত করুন।</p>
+        <button class="btn" onclick="alert('আমাদের সাথে যোগাযোগ করুন: ০১৭০০-০০০০০০')">এখনই অ্যাপয়েন্টমেন্ট নিন</button>
+    </section>
+
+    <section class="services" id="services">
+        <div class="card">
+            <h3>স্ক্রিন রিপ্লেসমেন্ট</h3>
+            <p>অরিজিনাল ডিসপ্লে বা টাচ স্ক্রিন পরিবর্তনের গ্যারান্টিযুক্ত সেবা।</p>
+        </div>
+        <div class="card">
+            <h3>ব্যাটারি ও চার্জিং</h3>
+            <p>দ্রুত চার্জ শেষ হওয়া বা চার্জিং পোর্টের সমস্যার স্থায়ী সমাধান।</p>
+        </div>
+        <div class="card">
+            <h3>সফটওয়্যার ও ফ্ল্যাশিং</h3>
+            <p>হ্যাং হওয়া, ডেড বুট বা সফটওয়্যার জনিত জটিল সমস্যার সমাধান।</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h3>যোগাযোগ</h3>
+        <p>ঠিকানা: মেইন রোড, টঙ্গী, গাজীপুর</p>
+        <p>মোবাইল: +৮৮০ ১৭০০-০০০০০০</p>
+        <p style="margin-top: 20px;">&copy; ২০২৬ ফারুক টেলিকম - সকল স্বত্ব সংরক্ষিত</p>
+    </footer>
+
+</body>
+</html>
